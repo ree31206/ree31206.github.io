@@ -1,8 +1,5 @@
 # The Site Configuration
 
-include:
- - _javascript
-
 # Import the theme
 theme: jekyll-theme-chirpy
 
@@ -161,7 +158,7 @@ defaults:
     values:
       swcache: true
   - scope:
-      path: assets/js/dist
+      path: _javascript
     values:
       swcache: true
 

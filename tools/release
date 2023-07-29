@@ -27,7 +27,7 @@ GEM_SPEC="jekyll-theme-chirpy.gemspec"
 
 NODE_CONFIG="package.json"
 
-JS_DIST="assets/js/dist"
+JS_DIST="_javascript"
 BACKUP_PATH="$(mktemp -d)"
 
 FILES=(
@@ -124,7 +124,7 @@ _bump_gemspec() {
 #
 #   - _sass/jekyll-theme-chirpy.scss
 #   - _javascript/copyright
-#   - assets/js/dist/*.js (will be built by gulp later)
+#   - _javascript/*.js (will be built by gulp later)
 #   - jekyll-theme-chirpy.gemspec
 #
 # 2. Create a commit to save the changes.
