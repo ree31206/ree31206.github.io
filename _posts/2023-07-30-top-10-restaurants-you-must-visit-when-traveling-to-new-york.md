@@ -1,12 +1,7 @@
 ---
-layout: single
 title: "Top 10 Restaurants you must visit when traveling to New York"
 categories: travel
 tag: [TopNYC, NYCrestaurants, TravelNYC, NYCEats, NYCRestaurants, TravelNYC]
-toc: false
-author_profile: false
-sidebar:
-nav: "counts"
 pin: true
 ---
 
