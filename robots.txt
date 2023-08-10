@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ree31206.github.io/sitemap.xml
