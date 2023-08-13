@@ -31,6 +31,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: chown
+        run: sudo chown -R bitnami:daemon .git/
       - name: Support longpaths
         run: git config --system core.longpaths true
       - name: Checkout
