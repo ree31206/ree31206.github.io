@@ -31,10 +31,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: chown
-        run: sudo chown -R ree31206:ree31206 .git/
-      - name: Support longpaths
-        run: git config --system core.longpaths true
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Ruby
